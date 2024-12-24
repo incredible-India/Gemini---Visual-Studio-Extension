@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="Google_Gemini.63df5125-c4c2-45c4-b59f-dcba135a8ce6" Version="1.0" Language="en-US" Publisher="Himanshu kumar Sharma HKS " />
+        <DisplayName>Google_Gemini</DisplayName>
+        <Description xml:space="preserve">The Google Gemini Web Extension allows you to seamlessly integrate the ChatGPT web interface directly within your Visual Studio Code (VS Code) environment. This enables you to utilize AI assistance while coding, enhancing your productivity and creativity.</Description>
+        <MoreInfo>https://github.com/incredible-India/Gemini---Visual-Studio-Extension</MoreInfo>
+        <Icon>Resources\Icon.png</Icon>
+        <PreviewImage>Resources\Icon.png</PreviewImage>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+    </Assets>
+</PackageManifest>
