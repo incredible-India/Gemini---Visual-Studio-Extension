@@ -12,7 +12,7 @@ namespace Google_Gemini
         public const string Description = @"The Google Gemini Web Extension allows you to seamlessly integrate the ChatGPT web interface directly within your Visual Studio Code (VS Code) environment. This enables you to utilize AI assistance while coding, enhancing your productivity and creativity.";
         public const string Language = "en-US";
         public const string Version = "1.0";
-        public const string Author = "Himanshu kumar Sharma HKS ";
+        public const string Author = "Himanshu Kumar Sharma HKS";
         public const string Tags = "";
     }
 }
