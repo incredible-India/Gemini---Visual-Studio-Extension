@@ -12,6 +12,7 @@ This extension provides seamless integration with Google Gemini within the Visua
    - Click **Download** and follow the on-screen instructions to install the extension.
 3. **Restart Visual Studio:** After successful installation, restart Visual Studio for the changes to take effect.
 ![image](https://github.com/user-attachments/assets/c9baca9b-e3fc-4cdb-9bc5-62ed9b773144)
+![image](https://github.com/user-attachments/assets/ce73d02f-c192-4a4c-b56b-76e6f2872f01)
 
 ## Usage
 
